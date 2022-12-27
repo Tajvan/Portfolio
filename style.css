@@ -8,10 +8,7 @@
 .body {
   background-color: #161616;
 }
-h1 {
-  font-family: var(--main-font);
-  text-transform: uppercase;
-}
+
 h2 {
   font-family: var(--semi-font);
   text-transform: uppercase;
@@ -50,7 +47,9 @@ p {
 }
 
 .ul {
-  margin-top: 150px;
+  margin: 150px 10px 0;
+  padding-left: 0;
+  text-align: center;
 }
 
 li {
@@ -86,4 +85,84 @@ li:hover {
 }
 .linkedin {
   color: #7a5ea6;
+}
+.backletter {
+  width: 1100px;
+  height: 800px;
+  position: relative;
+}
+.row {
+  color: white;
+  font-size: 400px;
+  line-height: 380px;
+  text-align: center;
+  margin: 0 auto;
+  flex: 1;
+  font-family: Arial;
+  font-weight: bold;
+  color: #1b1b1b;
+  z-index: 7;
+}
+.main {
+  position: absolute;
+  z-index: 3;
+  left: 65%;
+  top: 28%;
+}
+
+.hello {
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+  line-height: 160px;
+  color: #f9f4da;
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+.hello span {
+  color: #fcba28;
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+.name {
+  font-size: 60px;
+  color: #f9f4da;
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+.button a {
+  background: #fcba28;
+  text-align: center;
+  color: black;
+  padding: 13px 46px;
+  border-radius: 40px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.front {
+  position: absolute;
+  left: -160%;
+  top: 46%;
+}
+
+.front div {
+  color: white;
+  font-size: 25px;
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+.hr {
+  color: #fcba28;
+  opacity: unset;
+  width: 500px;
+  margin: 10px 0;
 }
