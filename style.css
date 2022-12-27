@@ -1,0 +1,17 @@
+:root {
+    --main-font: 'Montserrat', sans-serif;
+    --semi-font: 'Jaldi', sans-serif;
+    --paragraph-font: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-family: var(--main-font);
+    text-transform: uppercase;
+}
+h2 {
+    font-family: var(--semi-font);
+    text-transform: uppercase;
+}
+p {
+    font-family: var(--paragraph-font);
+}
