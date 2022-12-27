@@ -1,17 +1,89 @@
 :root {
-    --main-font: 'Montserrat', sans-serif;
-    --semi-font: 'Jaldi', sans-serif;
-    --paragraph-font: 'Roboto Slab', serif;
+  --main-font: "Montserrat", sans-serif;
+  --semi-font: "Jaldi", sans-serif;
+  --paragraph-font: "Roboto Slab", serif;
+  --shadow: 5px 5px 40px black;
 }
 
+.body {
+  background-color: #161616;
+}
 h1 {
-    font-family: var(--main-font);
-    text-transform: uppercase;
+  font-family: var(--main-font);
+  text-transform: uppercase;
 }
 h2 {
-    font-family: var(--semi-font);
-    text-transform: uppercase;
+  font-family: var(--semi-font);
+  text-transform: uppercase;
 }
 p {
-    font-family: var(--paragraph-font);
+  font-family: var(--paragraph-font);
+}
+
+.container {
+  display: flex;
+  margin: 73px;
+  box-shadow: var(--shadow);
+  height: 3851px;
+  background: #161616;
+  border-radius: 10px;
+}
+.contactbox {
+  width: 152px;
+  height: 750px;
+  box-shadow: var(--shadow);
+  background: #161616;
+  margin-left: -10px;
+  border-radius: 10px;
+}
+.logo {
+  background: transparent;
+  border: 1px solid #808080;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px 10px 10px 0;
+  margin: 70px auto;
+  text-align: center;
+  color: #f38ba2;
+  font-size: 20px;
+  font-family: var(--semi-font);
+}
+
+.ul {
+  margin-top: 150px;
+}
+
+li {
+  list-style: none;
+  color: #f9f4da;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-weight: 200;
+  line-height: 40px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+li:hover {
+  color: #fc7427;
+}
+.home {
+  font-size: 25px;
+  font-weight: bold;
+}
+.contacticon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 50px;
+  margin: 100px 0;
+  font-size: 25px;
+}
+.phone {
+  color: #fc7427;
+}
+.email {
+  color: #11b5e5;
+}
+.linkedin {
+  color: #7a5ea6;
 }
