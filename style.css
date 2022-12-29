@@ -20,6 +20,7 @@ p {
 .container {
   display: flex;
   margin: 73px;
+  height: 1000px;
   box-shadow: var(--shadow);
   background: #161616;
   border-radius: 10px;
@@ -156,4 +157,8 @@ li:hover {
   opacity: unset;
   width: 500px;
   margin: 10px 0;
+}
+
+.about {
+    display: flex;
 }
