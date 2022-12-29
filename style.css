@@ -34,7 +34,7 @@ p {
 }
 .contactbox {
   width: 152px;
-  height: 800px;
+  height: 750px;
   box-shadow: var(--shadow);
   background: #161616;
   margin-left: -10px;
@@ -87,6 +87,13 @@ li:hover {
 }
 .phone {
   color: #fc7427;
+}
+.phone:hover,
+.email:hover,
+.linkedin:hover {
+  font-size: 40px;
+  transition: font-size 500ms ease-in-out;
+  cursor: pointer;
 }
 .email {
   color: #11b5e5;
@@ -159,5 +166,3 @@ li:hover {
   width: 500px;
   margin: 10px 0;
 }
-
-
