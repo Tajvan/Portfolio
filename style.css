@@ -103,6 +103,7 @@ li:hover {
 .helloinformation {
   float: right;
   margin-top: 200px;
+  margin-right: 60px;
 }
 
 .hello {
@@ -139,10 +140,10 @@ li:hover {
 }
 
 .sectionformain {
-  float: right;
+  float: left;
   position: relative;
   margin-top: 310px;
-  left: -100px;
+  left: 100px;
 }
 
 .front div {
