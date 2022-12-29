@@ -24,7 +24,7 @@ p {
   background: #161616;
   border-radius: 10px;
   background-image: url("background.jpg");
-  background-size: 1300px 900px;
+  background-size: 1300px 800px;
   background-repeat: no-repeat;
 }
 .homepage {
@@ -54,7 +54,7 @@ p {
 }
 
 .ul {
-  margin: 200px 10px 0;
+  margin: 175px 10px 0;
   padding-left: 0;
   text-align: center;
 }
@@ -81,7 +81,7 @@ li:hover {
   flex-direction: column;
   align-items: center;
   line-height: 50px;
-  margin: 150px 0;
+  margin: 100px 0;
   font-size: 25px;
 }
 .phone {
@@ -95,21 +95,20 @@ li:hover {
 }
 
 .main {
-  position: absolute;
   z-index: 3;
   left: 65%;
   top: 10%;
 }
 .helloinformation {
-  position: relative;
-  left: 30px;
+  float: right;
+  margin-top: 200px;
 }
 
 .hello {
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   margin: 0;
-  line-height: 160px;
+  line-height: 100px;
   color: #f9f4da;
   font-family: var(--main-font);
   font-weight: bold;
@@ -119,12 +118,7 @@ li:hover {
   font-family: var(--main-font);
   font-weight: bold;
 }
-.name {
-  font-size: 60px;
-  color: #f9f4da;
-  font-family: var(--main-font);
-  font-weight: bold;
-}
+
 .button a {
   background: #fcba28;
   text-align: center;
@@ -144,17 +138,10 @@ li:hover {
 }
 
 .sectionformain {
-  display: flex;
+  float: right;
   position: relative;
-  left: -650px;
-  top: 100px;
-}
-.front {
-  position: flex;
-  left: -160%;
-  top: 200%;
-  align-items: center;
-  align-content: center;
+  margin-top: 310px;
+  left: -100px;
 }
 
 .front div {
