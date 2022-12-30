@@ -72,6 +72,8 @@ li {
 }
 li:hover {
   color: #fc7427;
+  text-shadow: 0 0 15px #fc7427, 0 0 20px #fc7427,
+    0 0 25px #fc7427;
 }
 .home {
   font-size: 25px;
