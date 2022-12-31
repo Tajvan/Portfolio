@@ -17,10 +17,11 @@ p {
   font-family: var(--paragraph-font);
 }
 
-.container {
+.mainbox {
   display: flex;
-  margin: 73px;
-  height: 1000px;
+  justify-content: center;
+  width: 1300px;
+  margin: 75px auto;
   box-shadow: var(--shadow);
   background: #161616;
   border-radius: 10px;
@@ -72,8 +73,7 @@ li {
 }
 li:hover {
   color: #fc7427;
-  text-shadow: 0 0 15px #fc7427, 0 0 20px #fc7427,
-    0 0 25px #fc7427;
+  text-shadow: 0 0 15px #fc7427, 0 0 20px #fc7427, 0 0 25px #fc7427;
 }
 .home {
   font-size: 25px;
@@ -103,16 +103,13 @@ li:hover {
 .linkedin {
   color: #7a5ea6;
 }
-
-.main {
-  z-index: 3;
-  left: 65%;
-  top: 10%;
+.subcontainer {
+  display: flex;
+  justify-content: center;
 }
-.helloinformation {
-  float: right;
-  margin-top: 200px;
-  margin-right: 60px;
+.hellosection {
+  margin-top: 205px;
+  margin-left: 50px;
 }
 
 .hello {
@@ -147,14 +144,10 @@ li:hover {
   display: flex;
   justify-content: center;
 }
-
-.sectionformain {
-  float: left;
-  position: relative;
+.front {
   margin-top: 310px;
-  left: 100px;
+  margin-left: 50px;
 }
-
 .front div {
   color: white;
   font-size: 25px;
@@ -169,5 +162,5 @@ li:hover {
   margin: 10px 0;
 }
 .about {
-    color: red;
+  color: red;
 }
