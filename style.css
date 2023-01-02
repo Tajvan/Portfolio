@@ -9,14 +9,6 @@
   background-color: #161616;
 }
 
-h2 {
-  font-family: var(--semi-font);
-  text-transform: uppercase;
-}
-p {
-  font-family: var(--paragraph-font);
-}
-
 .mainbox {
   display: flex;
   justify-content: center;
@@ -161,6 +153,126 @@ li:hover {
   width: 500px;
   margin: 10px 0;
 }
+
 .about {
-  color: red;
+  margin-top: 80px;
+}
+
+div h2 {
+  color: #f9f4da;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--semi-font);
+}
+div p {
+  color: white;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 20px;
+  font-family: var(--main-font);
+}
+
+.square {
+  margin: 0 auto;
+  color: transparent;
+  background-color: transparent;
+}
+.red {
+  border: 8px solid #ed203d;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 0 0 3em 0 #ed203d, inset 0 0 3em 0 #ed203d;
+}
+
+.works {
+  margin-top: 100px;
+}
+
+.mywork {
+  margin-bottom: 100px;
+}
+.grooming a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.grooming a:hover {
+  color: #f38ba2;
+  text-shadow: 0 0 15px #f38ba2, 0 0 20px #f38ba2, 0 0 25px #f38ba2;
+}
+.pink {
+  border: 8px solid #f38ba2;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 3em 0 #f38ba2, inset 0 0 3em 0 #f38ba2;
+}
+.groomingshop {
+  margin: 50px 0 35px 50px;
+  width: 480px;
+  height: 280px;
+}
+
+.second {
+  margin-top: 100px !important;
+}
+.green {
+  border: 8px solid #0fa85b;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 3em 0 #0fa85b, inset 0 0 3em 0 #0fa85b;
+}
+.weatherapp {
+  margin: 40px 0 35px 50px;
+  width: 480px;
+  height: 300px;
+}
+.weather a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+  font-weight: 200;
+  text-decoration: none;
+}
+.weather a:hover {
+  color: #0fa85b;
+  text-shadow: 0 0 15px #0fa85b, 0 0 20px #0fa85b, 0 0 25px #0fa85b;
+}
+.paragraph {
+  margin-left: 69px !important;
+}
+
+.third {
+  margin-top: 100px !important;
+}
+.purpl {
+  border: 8px solid #7a5ea6;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 3em 0 #7a5ea6, inset 0 0 3em 0 #7a5ea6;
+}
+.hpshop {
+  margin: 70px 0 35px 50px;
+  width: 500px;
+  height: 250px;
+}
+
+.hp a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+  font-weight: 200;
+  text-decoration: none;
+}
+.hp a:hover {
+  color: #7a5ea6;
+  text-shadow: 0 0 15px #7a5ea6, 0 0 20px #7a5ea6, 0 0 25px #7a5ea6;
 }

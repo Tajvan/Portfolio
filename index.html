@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/f09a70eeae.js"
       crossorigin="anonymous"
@@ -21,15 +26,9 @@
       href="https://fonts.googleapis.com/css2?family=Jaldi:wght@700&family=Montserrat:wght@200;400;800&family=Roboto+Slab:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
   </head>
   <body class="bg-none body">
-    <div class="mainbox">
+    <div class="mainbox d-block">
       <section class="homepage">
         <section class="contactbox">
           <div class="logo">K</div>
@@ -39,8 +38,10 @@
                 <span class="home">Home</span>
               </li></a
             >
-            <a href="" class="text-decoration-none"><li>About me</li></a>
-            <a href="" class="text-decoration-none"><li>My works</li></a>
+            <a href="#about" class="text-decoration-none"><li>About me</li></a>
+            <a href="#myworks" class="text-decoration-none"
+              ><li>My works</li></a
+            >
             <a href="" class="text-decoration-none"><li>Contacts</li></a>
           </ul>
           <div class="contacticon">
@@ -72,6 +73,91 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div>
+          <div class="row">
+            <div class="col-6">
+              <div class="square red"></div>
+            </div>
+            <div class="col-6 pe-5">
+              <h2>About me</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works" id="myworks">
+        <h2 class="mywork">My works</h2>
+
+        <div class="row">
+          <div class="col-6">
+            <div class="square pink">
+              <img src="groomingshop.png" class="groomingshop" />
+            </div>
+          </div>
+          <div class="col-6 pe-5">
+            <h2 class="grooming">
+              <a href="https://velvety-swan-100c1d.netlify.app/"
+                >Grooming shop</a
+              >
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="row second">
+          <div class="col-6">
+            <h2 class="weather">
+              <a href="https://aesthetic-travesseiro-d54c1c.netlify.app"
+                >Weather App</a
+              >
+            </h2>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="col-6 pe-5">
+            <div class="square green">
+              <img src="weatherapp.png" class="weatherapp" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row third">
+          <div class="col-6">
+            <div class="square purpl">
+              <img src="hpshop.png" class="hpshop" />
+            </div>
+          </div>
+          <div class="col-6 pe-5">
+            <h2 class="hp">
+              <a href="">HP shop</a>
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </div>
         </div>
       </section>
