@@ -53,7 +53,7 @@
   text-align: center;
 }
 
-li {
+.li {
   list-style: none;
   color: #f9f4da;
   text-transform: uppercase;
@@ -63,7 +63,8 @@ li {
   font-size: 15px;
   margin: 0 auto;
 }
-li:hover {
+.li:hover,
+.li span:hover {
   color: #fc7427;
   text-shadow: 0 0 15px #fc7427, 0 0 20px #fc7427, 0 0 25px #fc7427;
 }
@@ -275,4 +276,64 @@ div p {
 .hp a:hover {
   color: #7a5ea6;
   text-shadow: 0 0 15px #7a5ea6, 0 0 20px #7a5ea6, 0 0 25px #7a5ea6;
+}
+
+.footer {
+  margin-top: 100px;
+  box-shadow: 2px 3px 50px black;
+  border-radius: 10px;
+  padding-top: 30px;
+  height: 300px;
+}
+.fourth {
+  margin-top: 30px !important;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.contactphone {
+  font-size: 25px;
+  color: #fc7427;
+}
+li {
+  line-height: 50px;
+}
+li span,
+.emailcontact {
+  font-size: 20px;
+  color: #f9f4da;
+  margin-left: 10px;
+  font-family: var(--main-font);
+  font-weight: 200;
+  text-decoration: none;
+}
+.contactemail {
+  font-size: 25px;
+  color: #11b5e5;
+}
+.network {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.network li {
+  list-style: none;
+}
+.network li i {
+  font-size: 25px;
+}
+.link {
+  color: #7a5ea6;
+}
+.face {
+  color: #0fa85b;
+}
+.inst {
+  color: #f38ba2;
+}
+.twit {
+  color: #fc7427;
 }
