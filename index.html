@@ -29,79 +29,78 @@
     />
   </head>
   <body class="bg-none body">
-    <div class="mainbox d-block">
-      <section class="homepage">
-        <section class="contactbox">
-          <div class="logo">K</div>
-          <ul class="ul">
-            <a href="/" class="text-decoration-none">
-              <li class="li">
-                <span class="home">Home</span>
-              </li></a
-            >
-            <a href="#about" class="text-decoration-none"
-              ><li class="li">About me</li></a
-            >
-            <a href="#myworks" class="text-decoration-none"
-              ><li class="li">My works</li></a
-            >
-            <a href="#contact" class="text-decoration-none"
-              ><li class="li">Contacts</li></a
-            >
-          </ul>
-          <div class="contacticon">
-            <div>
-              <i class="fa-solid fa-phone phone"></i>
-            </div>
-            <div>
-              <i class="fa-solid fa-envelope email"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-linkedin linkedin"></i>
-            </div>
+    <section class="homepage">
+      <section class="contactbox">
+        <div class="logo">K</div>
+        <ul class="ul">
+          <a href="/" class="text-decoration-none">
+            <li class="li">
+              <span class="home">Home</span>
+            </li></a
+          >
+          <a href="#about" class="text-decoration-none"
+            ><li class="li">About me</li></a
+          >
+          <a href="#myworks" class="text-decoration-none"
+            ><li class="li">My works</li></a
+          >
+          <a href="#contact" class="text-decoration-none"
+            ><li class="li">Contacts</li></a
+          >
+        </ul>
+        <div class="contacticon">
+          <div>
+            <i class="fa-solid fa-phone phone"></i>
           </div>
-        </section>
-        <div class="subcontainer">
-          <div class="row">
-            <div class="col-6">
-              <div class="front">
-                <div>Front-end</div>
-                <hr class="hr" />
-                <div>Developer</div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="hellosection">
-                <h1 class="hello">Hell<span>o</span>, <br />I am Kseniia</h1>
-                <div class="button">
-                  <a href="#contact">Contact</a>
-                </div>
-              </div>
-            </div>
+          <div>
+            <i class="fa-solid fa-envelope email"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-linkedin linkedin"></i>
           </div>
         </div>
       </section>
-      <section class="about" id="about">
-        <div>
-          <div class="row">
-            <div class="col-6">
-              <div class="square red"></div>
-            </div>
-            <div class="col-6 pe-5">
-              <h2>About me</h2>
-              <p>
-                Hello, my name is Kseniia and I a front-end developer based in
-                Kyiv, Ukraine.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="works" id="myworks">
-        <h2 class="mywork">My works</h2>
-
+      <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6 d-none d-md-block d-lg-block">
+            <div class="front">
+              <div>Front-end</div>
+              <hr class="hr" />
+              <div>Developer</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="hellosection">
+              <h1 class="hello">Hell<span>o</span>, <br />I am Kseniia</h1>
+              <div class="button">
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="square red"></div>
+          </div>
+          <div class="col-md-6">
+            <h2>About me</h2>
+            <p>
+              Hello, my name is Kseniia and I a front-end developer based in
+              Kyiv, Ukraine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="works" id="myworks">
+      <h2 class="mywork">My works</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <div class="square pink">
               <img
                 src="groomingshop.png"
@@ -110,7 +109,7 @@
               />
             </div>
           </div>
-          <div class="col-6 pe-5">
+          <div class="col-md-6">
             <h2 class="grooming">
               <a
                 href="https://velvety-swan-100c1d.netlify.app/"
@@ -124,7 +123,7 @@
         </div>
 
         <div class="row second">
-          <div class="col-6">
+          <div class="col-md-6">
             <h2 class="weather">
               <a
                 href="https://aesthetic-travesseiro-d54c1c.netlify.app"
@@ -138,7 +137,7 @@
               world, using API from Openweather.org.
             </p>
           </div>
-          <div class="col-6 pe-5">
+          <div class="col-md-6">
             <div class="square green">
               <img
                 src="weatherapp.png"
@@ -150,12 +149,12 @@
         </div>
 
         <div class="row third">
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="square purpl">
               <img src="hpshop.png" class="hpshop" alt="hp shop homepage" />
             </div>
           </div>
-          <div class="col-6 pe-5">
+          <div class="col-md-6 pe-5">
             <h2 class="hp">
               <a
                 href="https://guileless-marshmallow-aa0a6d.netlify.app/"
@@ -172,38 +171,39 @@
             </p>
           </div>
         </div>
-      </section>
-      <footer class="footer" id="contact">
-        <h2>Contact me</h2>
-        <div class="row fourth">
-          <div class="col-6">
-            <ul class="contact">
-              <div>
-                <li>
-                  <i class="fa-solid fa-phone contactphone"></i>
-                  <span class="phonenumber">+38(098) 980 98 98</span>
-                </li>
-                <li>
-                  <i class="fa-solid fa-envelope contactemail"></i
-                  ><a href="mailto:aksiniia@gmail.com" class="emailcontact"
-                    >aksiniia@gmail.com</a
-                  >
-                </li>
-              </div>
-            </ul>
-          </div>
-          <div class="col-6">
-            <ul>
-              <div class="network">
-                <li><i class="fa-brands fa-linkedin link"></i></li>
-                <li><i class="fa-brands fa-facebook face"></i></li>
-                <li><i class="fa-brands fa-instagram inst"></i></li>
-                <li><i class="fa-brands fa-twitter twit"></i></li>
-              </div>
-            </ul>
-          </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <h2>Contact me</h2>
+      <div class="row fourth">
+        <div class="col-md-6">
+          <ul class="contact">
+            <div>
+              <li>
+                <i class="fa-solid fa-phone contactphone"></i>
+                <span class="phonenumber">+38(098) 980 98 98</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope contactemail"></i
+                ><a href="mailto:aksiniia@gmail.com" class="emailcontact"
+                  >aksiniia@gmail.com</a
+                >
+              </li>
+            </div>
+          </ul>
         </div>
-      </footer>
-    </div>
+        <div class="col-md-6">
+          <ul>
+            <div class="network">
+              <li><i class="fa-brands fa-linkedin link"></i></li>
+              <li><i class="fa-brands fa-facebook face"></i></li>
+              <li><i class="fa-brands fa-instagram inst"></i></li>
+              <li><i class="fa-brands fa-twitter twit"></i></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
