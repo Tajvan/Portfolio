@@ -9,6 +9,7 @@
   background-color: #161616;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
+  
 }
 .homepage {
   height: 800px;
@@ -283,7 +284,6 @@ div p {
   border-radius: 10px;
   padding-top: 30px;
   height: 300px;
-  max-width: 100%;
 }
 .footer h2 {
   color: #f9f4da;
