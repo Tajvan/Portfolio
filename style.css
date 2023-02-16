@@ -9,7 +9,6 @@
   background-color: #161616;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
-  
 }
 .homepage {
   height: 800px;
@@ -255,11 +254,11 @@ div p {
   margin-top: 100px !important;
 }
 .purpl {
-  border: 8px solid #7a5ea6;
+  border: 8px solid #e7e7e7;
   width: 80%;
   height: 100%;
   border-radius: 20px;
-  box-shadow: 0 0 3em 0 #7a5ea6, inset 0 0 3em 0 #7a5ea6;
+  box-shadow: 0 0 3em 0 #e7e7e7, inset 0 0 3em 0 #e7e7e7;
 }
 .hpshop {
   margin: 30px 0 35px 50px;
@@ -274,8 +273,8 @@ div p {
   text-decoration: none;
 }
 .hp a:hover {
-  color: #7a5ea6;
-  text-shadow: 0 0 15px #7a5ea6, 0 0 20px #7a5ea6, 0 0 25px #7a5ea6;
+  color: #e7e7e7;
+  text-shadow: 0 0 15px #e7e7e7, 0 0 20px #e7e7e7, 0 0 25px #e7e7e7;
 }
 
 .footer {
@@ -342,9 +341,6 @@ li span,
 }
 .inst {
   color: #f38ba2;
-}
-.twit {
-  color: #fc7427;
 }
 
 @media (max-width: 1200px) {
